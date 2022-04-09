@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Zhao Wei\'s Notes',
   tagline: 'Dump of stuff that I thought would be good to keep track of',
-  url: 'https://zwliew.com',
-  baseUrl: '/',
+  url: 'https://zwliew.github.io',
+  baseUrl: '/notes/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'zwliew', // Usually your GitHub org/user name.
+  projectName: 'notes', // Usually your repo name.
 
   presets: [
     [
