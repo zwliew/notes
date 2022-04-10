@@ -9,7 +9,7 @@ const config = {
   title: 'Zhao Wei\'s Notes',
   tagline: 'Dump of stuff that I thought would be good to keep track of',
   url: 'https://zwliew.github.io',
-  baseUrl: '/notes/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
