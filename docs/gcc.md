@@ -6,6 +6,19 @@ sidebar_position: 2
 
 https://gcc.gnu.org/
 
+## Useful resources for new contributors
+
+- [David Malcolm's contributors guide](https://dmalcolm.fedorapeople.org/gcc/newbies-guide/)
+- [GCC Manual](https://gcc.gnu.org/onlinedocs/)
+    - Mainly for reference
+
+## Communication
+
+GCC communicates through [mailing lists](https://gcc.gnu.org/lists.html). The most important ones are:
+- [gcc-patches](https://gcc.gnu.org/pipermail/gcc-patches/) for discussions surrounding patches
+- [gcc-help](https://gcc.gnu.org/pipermail/gcc-help/) for help regarding building or using GCC
+- [gcc](https://gcc.gnu.org/pipermail/gcc/) for anything else GCC-related (anything goes, kinda!)
+
 ## Working with GIMPLE/GENERIC trees
 
 As a result of expressions being in [SSA](https://en.wikipedia.org/wiki/Static_single_assignment_form), the operands of an operator are assumed to have the same type.
