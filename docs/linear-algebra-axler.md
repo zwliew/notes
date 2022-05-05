@@ -138,4 +138,20 @@ $$
 Therefore, $\beta = \frac{1}{\alpha}$ exists and is unique.
 
 
-### Q9
+## Exercise 1.B
+
+### Q6
+
+Consider the associativity of vector addition in $\infty + (-\infty) + (-\infty)$. Grouping the first two terms, we get,
+
+$$
+(\infty + (-\infty)) + (-\infty) = 0 + (-\infty) = -\infty
+$$
+
+But grouping the last two terms, we get,
+
+$$
+\infty + (-\infty + (-\infty)) = \infty + (-\infty) = 0
+$$
+
+This is a contradiction as $-\infty \ne 0$. The associativity of vector addition is violated. Therefore, $\mathbb{R} \cup \{\infty\} \cup \{-\infty\}$ is not a vector space.
