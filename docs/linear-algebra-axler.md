@@ -155,3 +155,138 @@ $$
 $$
 
 This is a contradiction as $-\infty \ne 0$. The associativity of vector addition is violated. Therefore, $\mathbb{R} \cup \{\infty\} \cup \{-\infty\}$ is not a vector space.
+
+## Exercise 1.C
+
+### Q11
+
+Let $U_1, U_2$ be two subspaces of $V$.
+
+Suppose $U_1 \cup U_2$ is a subspace of $V$ and $u_1 \in U_1$ and $u_2 \in U_2$. Then, $u_1 + u_2 \in U_1 \cup U_2$. WLOG, suppose $u_1 + u_2 \in U_1$. Then, $u_2 = ((u_1 + u_2) - u_1) \in U_1$. Therefore, $U_1 \subseteq U_2$. Similarly, if $u_1 + u_2 \in U_2$, we can prove that $U_2 \subseteq U_1$.
+
+Now, we prove the direction of the implication. WLOG, suppose $U_1 \subseteq U_2$. Then, $U_1 \cup U_2 = U_2$. It is obvious that $U_1 \cup U_2$ is also a subspace. Similarly, we can prove that this hold true if $U_2 \subseteq U_1$.
+
+### Q13
+
+Reminder to revisit this later.
+
+### Q14
+
+Suppose $v = u + w \in U + W$, where $u \in U$ and $w \in W$. That is,
+
+$$
+v = (u_x + w_x, u_x + w_x, u_y + w_x, u_y + w_y)
+$$
+
+Let $x = u_x + w_x, y = u_y + w_x, z = u_y + w_y$. It is clear that $v = (x, x, y, z)$ where $x, y, z \in \mathbb{F}$.
+
+Now, let $v = (x, x, y, z)$ where $x, y, z \in \mathbb{F}$. Let $u = (x, x, y, y) \in U$ and $w = (0, 0, 0, z - y) \in W$. Then, we have $v = u + w \in U + W$.
+
+Therefore, $U + W = \{(x, x, y, z) \in \mathbb{F}^4 : x, y, z \in \mathbb{F}\}$.
+
+### Q15
+
+By closure of vector addition, $U + U \subseteq U$. Furthermore, by definition of subspace sums, $U \subseteq U + U$. Therefore, $U + U = U$.
+
+### Q16
+
+$U + W = \{ u + w : u \in U, w \in W \} = \{ w + u : u \in U, w \in W \} = W + U$.
+
+The second equation is true because of the commutativity of vector addition.
+
+### Q17
+
+$$
+\begin{align*}
+(U_1 + U_2) + U_3 &= \{ (u_1 + u_2) + u_3 : u \in U_1, u_2 \in U_2, u_3 \in U_3 \} \\
+&= U\{ u_1 + (u_2 + u_3) : u \in U_1, u_2 \in U_2, u_3 \in U_3 \} \\
+&= U_1 + (U_2 + U_3)
+\end{align*}
+$$
+
+In a similar vein with the reasoning in Q16, the second equation is true because of the associativity of vector addition.
+
+### Q18
+
+The additive identity of addition on subspaces is the set $\{0\}$. Furthermore, only that set has an additive inverse.
+
+### Q19
+
+Let $U_1 = \{(x, 0) \in \mathbb{R}^2 : x \in \mathbb{R} \}$, $U_2 = \{(0, x) \in \mathbb{R}^2 : x \in \mathbb{R} \}$, and $V = W = U_1 + U_2$.
+
+It is clear that $U_1 + W = W = U_2 + W$, but $U_1 \ne U_2$.
+
+### Q20
+
+Take $W = \{(0, x, 0, y) \in \mathbb{F}^4 : x, y \in \mathbb{F}\}$. For any $(x, y, z, w) \in \mathbb{F}^4$, $(x, y, z, w) = (x, x, z, z) + (0, y - z, 0, w - z) \in U + W$. Therefore, $\mathbb{F}^4 = U + W$.
+
+It is also clear that $U \cap W = \{0\}$. Therefore, $\mathbb{F}^4 = U \oplus W$.
+
+### Q21
+
+Similar to Q20, take $W = \{(0, 0, x, y, z) \in \mathbb{F}^5 : x, y, z \in \mathbb{F} \}$. It is clear that $U \oplus W$ is a direct sum as vector $0$ can be uniquely represented as $u + w$ where $u = w = 0$.
+
+For any $(f_1, f_2, f_3, f_4, f_4) \in \mathbb{F}^5$, we have
+
+$$
+(f_1, f_2, f_3, f_4, f_5) = (f_1, f_2, f_1 + f_2, f_1 - f_2, 2f_1) + (0, 0, f_3 - f_1 - f_2, f_4 - f_1 + f_2, f_5 - 2f_1) \in U + W
+$$
+
+Therefore, $\mathbb{F}^5 = U \oplus W$.
+
+### Q22
+
+Based on Q21, let $W_1 = \{(0, 0, x, 0, 0) \in \mathbb{F}^5 : x \in \mathbb{F}\}, W_2 = \{(0, 0, 0, y, 0) \in \mathbb{F}^5 : y \in \mathbb{F}\}, W_3 = \{(0, 0, 0, 0, z) \in \mathbb{F}^5 : z \in \mathbb{F}\}$.
+
+It is clear that $W = W_1 \oplus W_2 \oplus W_3$. Since $\mathbb{F}^5 = U \oplus W$, thus $\mathbb{F}^5 = U \oplus W_1 \oplus W_2 \oplus W_3$.
+
+### Q23
+
+Take $W = \{(0, x, 0, y) \in \mathbb{F}^4 : x, y \in \mathbb{F}\}$, $U_1 = \{(x, x, y, y) \in \mathbb{F}^4 : x, y \in \mathbb{F}\}$, and $U_2 = \{(x, y, y, x) \in \mathbb{F}^4 : x, y \in \mathbb{F}^4\}$. It is clear that
+
+$$
+W \cap U_1 = W \cap U_2 = \{0\}
+$$
+
+which means that $W \oplus U_1$ and $W \oplus U_2$ are direct sums.
+
+Furthermore, for any $v_1 \in U_1 + W$, we have
+
+$$
+\begin{align*}
+v_1 &= (0, z, 0, w) + (x, x, y, y) \hspace{1em} x, y, z, w \in \mathbb{F} \\
+&= (x, x + z, y, y + w) \\
+&= (0, x + z - y, 0, y + w - x) + (x, y, y, x) \in U_2 + W
+\end{align*}
+$$
+
+Hence, $U_1 + W \subseteq U_2 + W$. Similarly, we can prove that $U_2 + W \subseteq U_1 + W$ and thus, $U_1 + W = U_2 + W$.
+
+However, $U_1 \ne U_2$.
+
+### Q24
+
+If a function $f \in U_e \cap U_o$, then
+
+$$
+\begin{align*}
+&f(x) = f(-x) = -f(x) \\
+&\implies 2f(x) = 0 \\
+&\implies f(x) = 0 \\
+&\implies f = 0
+\end{align*}
+$$
+
+Since $U_e \cap U_o = \{0\}$, $U_e \oplus U_o$ is a direct sum.
+
+For any $f \in U_e$ and $g \in U_o$, it is clear that $f + g \in \mathbb{R^R}$, so $U_e \oplus U_o \subseteq \mathbb{R^R}$.
+
+For any $h \in \mathbb{R^R}$, we can write
+
+$$
+h(x) = \frac{h(x) + h(-x)}{2} + \frac{h(x) - h(-x)}{2}
+$$
+
+where $\frac{h(x) + h(-x)}{2} \in U_e$ and $\frac{h(x) - h(-x)}{2} \in U_o$. Therefore, $\mathbb{R^R} \subseteq U_e \oplus U_o$.
+
+Combining the aforementioned results, we have $\mathbb{R^R} = U_e \oplus U_o$.
