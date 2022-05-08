@@ -14,3 +14,4 @@ sidebar_position: 9
 - [Introduction to Linear Algebra (Strang, 5th ed)](https://math.mit.edu/~gs/linearalgebra/)
   - Used by MIT 18.06
 - [Linear Algebra Done Right (Axler, 3rd ed)](https://linear.axler.net/)
+  - [Exercise solutions](./linear-algebra-axler)

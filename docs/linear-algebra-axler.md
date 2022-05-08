@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Solutions to Axler's Linear Algebra Done Right (3rd ed)
+# Linear Algebra Done Right (Axler, 3 ed) Solutions
 
 ## Exercise 1.A
 
@@ -290,3 +290,48 @@ $$
 where $\frac{h(x) + h(-x)}{2} \in U_e$ and $\frac{h(x) - h(-x)}{2} \in U_o$. Therefore, $\mathbb{R^R} \subseteq U_e \oplus U_o$.
 
 Combining the aforementioned results, we have $\mathbb{R^R} = U_e \oplus U_o$.
+
+## Exercise 2.A
+
+### Q1
+
+Take any vector $v = a_1v_1 + a_2v_2 + a_3v_3 + a_4v_4 \in V$. Then,
+
+$$
+v = a_1(v_1 - v_2) + (a_2 + a_1)(v_2 - v_3) + (a_3 + a_2 + a_1)(v_3 - v_4) + (a_4 + a_3 + a_2 + a_1)v_4
+$$
+
+Therefore, $V \subseteq \text{span}\{v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4\}$. It is clear that the converse holds too, and so $V = \text{span}\{v_1 - v_2, v_2 - v_3, v_3 - v_4, v_4\}$.
+
+### Q2
+
+#### Part a
+
+Suppose the vector $v = 0$. Then, $0 = 1v$ and so the list $v$ is linearly dependent.
+
+Conversely, if the list $v$ is linearly dependent, then $0 = av$ for some $a \ne 0$ and so the vector $v = 0$.
+
+By contraposition, the list $v$ is linearly independent if and only if the vector $v \ne 0$.
+
+#### Part b
+
+Suppose the list $v = (v_1, v_2)$ is linearly dependent. Then, $0 = a_1v_1 + a_2v_2$ for some $a_1, a_2 \in \mathbb{F}$ not all $0$. WLOG, suppose $a_1 \ne 0$, so $v_1 = kv_2$ for some $k \in \mathbb{F}$. Then, one of the vectors is a scalar multiple of the other.
+
+Conversely, suppose one of the vectors is a scalar multiple of the other. WLOG, let $v_1 = kv_2$ for some $k \in \mathbb{F}$. Then, $0 = v_1 + -(kv_2)$ and so $v$ is linearly dependent.
+
+By contraposition, the list $v$ is linearly independent if and only if neither vector is a scalar multiple of the other.
+
+
+#### Part c
+
+Consider the equation $(0, 0, 0, 0) = a(1, 0, 0, 0) + b(0, 1, 0, 0) + c(0, 0, 1, 0)$. We have
+
+$$
+a(1) + b(0) + c(0) = 0 \implies a = 0 \\
+a(0) + b(1) + c(0) = 0 \implies b = 0 \\
+a(0) + b(0) + c(1) = 0 \implies c = 0
+$$
+
+Therefore, $a = b = c = 0$. The vectors are linearly independent in $\mathbb{F}^4$.
+
+
