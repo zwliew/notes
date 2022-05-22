@@ -334,4 +334,9 @@ $$
 
 Therefore, $a = b = c = 0$. The vectors are linearly independent in $\mathbb{F}^4$.
 
+## Exercise 2.B
+
+### Q1
+
+It is obvious that if a basis contains a nonzero vector $v$, then another basis can be obtained by replacing $v$ with $kv$ where $k \in \mathbb{F}$ and $k \ne 0$. Furthermore, a set containing the zero vector cannot be a basis since it is linearly dependent. Hence, a vector space that has exactly one basis has to have the basis $\{\}$. The only possible vector space is $\{0\}$.
 
