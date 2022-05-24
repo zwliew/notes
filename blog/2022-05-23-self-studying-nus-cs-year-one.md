@@ -43,7 +43,7 @@ As before, I strongly recommend reading the relevant chapters of the accompanyin
 
 CS2030S covers a hodgepodge of topics including object-oriented programming, functional programming, concurrent and parallel programming, and simple type systems. 
 
-At the moment, I am not sure of a good replacement for this course.
+At the moment, I am not sure of a good replacement for this course. That said, the well-written course notes are [online for self-study](https://nus-cs2030s.github.io/2122-s2/). Much of the course can be self-studied by reading the notes and doing some coding practice.
 
 ## CS2100 (Computer Organisation)
 
