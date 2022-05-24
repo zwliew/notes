@@ -29,7 +29,7 @@ CS1231S is your run-of-the-mill discrete mathematics course, which covers a hodg
 
 As mentioned in [Teach Yourself Computer Science](https://teachyourselfcs.com/#math), the course I most recommend for studying this course is [Mathematics for Computer Science (MIT's 6.024J)](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/). Notably, I recommend the Fall 2010 revision over the 2015 revision as Prof Tom Leighton taught the former, and I greatly appreciate his teaching.
 
-The course is accompanied by an equivalently-named textbook (linked in the course site). I recommend reading through the textbook chapter by chapter as it helps to internalise the content. In fact, in my opinion, reading the textbook and completing the problem sets is sufficient. Watch the lectures only if you have the time and/or you learn better with them.
+The course is accompanied by an equivalently-named textbook (linked in the course site). I recommend reading through the textbook chapter by chapter as it helps to internalise the content. In fact, in my opinion, reading the textbook and completing the problem sets is sufficient. Watch the lectures only if you have the time or you learn better with them.
 
 ## CS2040S (Data Structures and Algorithms)
 
@@ -37,13 +37,13 @@ CS2040S is another run-of-the-mill data structures and algorithms course. It cov
 
 I recommend studying [Introduction to Algorithms (MIT 6.006)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/). The resemblance between CS2040S and 6.006 is uncanny, from the types of topics covered to the order in which they are covered.
 
-As before, I strongly recommend reading the relevant chapters of the accompanying textbook [Introduction to Algorithms (CLRS, 3 ed)](https://mitpress.mit.edu/books/introduction-algorithms-third-edition), as well as attempt the textbook exercises and course problem sets. The lectures are optional and serve to provide a slightly different persepective.
+As before, I strongly recommend reading the relevant chapters of the accompanying textbook [Introduction to Algorithms (CLRS, 3 ed)](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) and attempting the textbook exercises and course problem sets. The lectures are optional and serve to provide a slightly different persepective.
 
 ## CS2030S (Programming Methodology II)
 
 CS2030S covers a hodgepodge of topics including object-oriented programming, functional programming, concurrent and parallel programming, and simple type systems. 
 
-At the moment, I am not sure of a good replacement for this course. That said, the well-written course notes are [online for self-study](https://nus-cs2030s.github.io/2122-s2/). Much of the course can be self-studied by reading the notes and doing some coding practice.
+At the moment, I am not sure of a good replacement for this course. That said, the well-written course notes are [online for self-study](https://nus-cs2030s.github.io/2122-s2/). Much of the course can be self-studied by reading the notes and doing coding practices. Unfortunately, I don't know of any available coding practices at the moment.
 
 ## CS2100 (Computer Organisation)
 
