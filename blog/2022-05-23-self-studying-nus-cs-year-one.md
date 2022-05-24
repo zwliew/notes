@@ -49,7 +49,7 @@ At the moment, I am not sure of a good replacement for this course. That said, t
 
 CS2100 covers how simple CPUs work. Topics include the C language, the MIPS architecture, processor datapath and control, boolean algebra, logic circuits, pipelining, caching, and performance analysis.
 
-At the moment, I am not sure of a good replacement for this course. While there are several supplementary reference textbooks used in the course, I have not read them enough to recommend them.
+At the moment, I am not sure of a good replacement for this course. While there are several supplementary reference textbooks used in the course, I have not read them enough to recommend them. That said, online cheatsheets like [Bernard's](https://bernardteo.me/nus/CS2100%20Reference.pdf) provides a decent overview of the course material.
 
 
 ## Conclusion and looking to Y2
