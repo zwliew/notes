@@ -1,14 +1,15 @@
 # Self-studying the NUS CS Y1 curriculum
 
-In the National University of Singapore (NUS), freshmen typically study the following courses:
+In the National University of Singapore (NUS), freshmen who are studying computer science (CS) typically study the following courses:
 
 1. CS1101S (Programming Methodology)
 2. CS1231S (Discrete Structures)
 3. CS2030S (Programming Methodology II)
 4. CS2040S (Data Structures & Algorithms)
 5. CS2100 (Computer Organisation)
+6. CS2106 (Introduction to Operating Systems)
 
-Most of these can be self-studied without ever enrolling in an official Computer Science (CS) programme. Here's how.
+Most of these can be self-studied without ever enrolling in an official CS programme. Here's how.
 
 ## CS1101S (Programming Methodology)
 
@@ -51,6 +52,13 @@ CS2100 covers how simple CPUs work. Topics include the C language, the MIPS arch
 
 At the moment, I am not sure of a good replacement for this course. While there are several supplementary reference textbooks used in the course, I have not read them enough to recommend them. That said, online cheatsheets like [Bernard's](https://bernardteo.me/nus/CS2100%20Reference.pdf) provides a decent overview of the course material.
 
+## CS2106 (Introduction to Operating Systems)
+
+CS2106 introduces main concepts in operating systems (OS) including processes and threads, process scheduling, inter-process communication (IPC), synchronization, memory management and virtual memory, and file systems. Most concepts are taught in relation to Unix. File system case studies include ext2 and FAT.
+
+To self-study OSes, I strongly recommend [Operating System Engineering (MIT 6.S081)](https://pdos.csail.mit.edu/6.S081/2021/index.html). It is a much more complete introduction to OSes that revolves around a simpler Unix-based kernel called xv6. The labs are much more interesting as they require students to get down to the nitty-gritty of writing modifications to the xv6 kernel, rather than merely writing code that uses kernel syscalls and abstractions. Furthermore, the course covers additional topics like networking, RCU, and virtualization. The tradeoff of this completeness is that the course workload feels much heavier than CS2106's.
+
+The course is accompanied by an xv6 handbook (linked in the course site) which provides a written explanation of the kernel. I recommend reading through the lecture slides and handbook, and working on the lab assignments following the schedule that is posted on the course site. The lecture videos are also helpful as they expand on the points in the lecture slides and handouts.
 
 ## Conclusion and looking to Y2
 
