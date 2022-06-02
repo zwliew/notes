@@ -3,6 +3,7 @@
 ## Courses
 
 - [Database Systems (CMU 15-445)](https://15445.courses.cs.cmu.edu/fall2021/)
+  - Covers intermediate SQL in 2-3 lectures; covers introductory DB implementation in the remaining lectures
 
 ## Books
 
