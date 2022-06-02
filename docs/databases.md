@@ -3,7 +3,9 @@
 ## Courses
 
 - [Database Systems (CMU 15-445)](https://15445.courses.cs.cmu.edu/fall2021/)
-  - Covers intermediate SQL in 2-3 lectures; covers introductory DB implementation in the remaining lectures
+  - Covers basic-intermediate SQL in 2-3 lectures; covers introductory DB implementation in the remaining lectures
+- [Databases (Stanford Online)](https://online.stanford.edu/courses/soe-ydatabases-databases)
+  - Covers relational algebra, relational design theory, and basic-advanced SQL constructs
 
 ## Books
 
