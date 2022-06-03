@@ -10,6 +10,8 @@
 - [Computer Networking: A Top-Down Approach (Kurose, Ross, 8 ed)](https://gaia.cs.umass.edu/kurose_ross/index.php)
   - Used by Stanford's CS144 and NUS's CS2105
   - Comes with free online lectures and problemsets
+- [Computer Networks: A Systems Approach (Peterson and Davie, 6 ed)](https://book.systemsapproach.org/)
+  - Used by CMU's 15-441
 
 ## Notes / cheatsheets
 
