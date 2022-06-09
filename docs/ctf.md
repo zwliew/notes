@@ -17,6 +17,10 @@ https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)
 
 https://sqlmap.org/ (SQL pentest)
 
+## Command line tools
+
+- cut (to cut out fields from stdin or files)
+- tr (to replace occurrences of characters in stdin or a file)
 
 ## Tools and resources
 
