@@ -21,6 +21,15 @@ https://sqlmap.org/ (SQL pentest)
 
 - cut (to cut out fields from stdin or files)
 - tr (to replace occurrences of characters in stdin or a file)
+- head (to retrieve the top N lines of stdout or a file)
+- tail (same as head, but for the bottom N lines)
+
+## Binary exploitation (pwn)
+
+### Learning resources
+
+- [pwn.college](https://pwn.college/)
+- [Nightmare](https://guyinatuxedo.github.io/index.html)
 
 ## Tools and resources
 
