@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknotes=self.webpackChunknotes||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Self-studying the NUS CS Y1 curriculum","permalink":"/blog/2022/05/23/self-studying-nus-cs-year-one"}]}')}}]);
