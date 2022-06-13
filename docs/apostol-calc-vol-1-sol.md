@@ -1,4 +1,4 @@
-# Solutions to Apostol's Calculus Vol. 1
+# Apostol's Calculus Vol. 1 Solutions
 
 ## I 3.3
 
@@ -89,7 +89,7 @@ $$
 ab = 0 &\implies a(b \cdot b^{-1}) = 0 \cdot b^{-1} \\
 &\implies a(1) = 0 \\
 &\implies a = 0
-\end{align*}
+\sd;end{align*}
 $$
 
 ## Theorem I.12
