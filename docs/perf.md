@@ -7,3 +7,7 @@
 ## Books
 
 - [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/)
+
+## Websites
+
+- [Brendan Gregg's blogs and articles](https://www.brendangregg.com/)
