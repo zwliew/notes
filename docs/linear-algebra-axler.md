@@ -242,27 +242,7 @@ It is clear that $W = W_1 \oplus W_2 \oplus W_3$. Since $\mathbb{F}^5 = U \oplus
 
 ### Q23
 
-Take $W = \{(0, x, 0, y) \in \mathbb{F}^4 : x, y \in \mathbb{F}\}$, $U_1 = \{(x, x, y, y) \in \mathbb{F}^4 : x, y \in \mathbb{F}\}$, and $U_2 = \{(x, y, y, x) \in \mathbb{F}^4 : x, y \in \mathbb{F}^4\}$. It is clear that
-
-$$
-W \cap U_1 = W \cap U_2 = \{0\}
-$$
-
-which means that $W \oplus U_1$ and $W \oplus U_2$ are direct sums.
-
-Furthermore, for any $v_1 \in U_1 + W$, we have
-
-$$
-\begin{align*}
-v_1 &= (0, z, 0, w) + (x, x, y, y) \hspace{1em} x, y, z, w \in \mathbb{F} \\
-&= (x, x + z, y, y + w) \\
-&= (0, x + z - y, 0, y + w - x) + (x, y, y, x) \in U_2 + W
-\end{align*}
-$$
-
-Hence, $U_1 + W \subseteq U_2 + W$. Similarly, we can prove that $U_2 + W \subseteq U_1 + W$ and thus, $U_1 + W = U_2 + W$.
-
-However, $U_1 \ne U_2$.
+Let $V = \mathbb{F}^2$, $W = \{(x, x) \in \mathbb{F}^2\}$, $U_1 = \{(x, 0) \in \mathbb{F}^2\}$, and $U_2 = \{(0, x) \in \mathbb{F}^2\}$. Then, $U_1 \oplus W = V = U_2 \oplus W$, but $U_1 \ne U_2$.
 
 ### Q24
 
